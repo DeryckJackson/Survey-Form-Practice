@@ -10,6 +10,65 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron">
+      <h1>This is a Survey for Humans</h1>
+    </div>
+
+    <form id="survey">
+
+      <div class="form-group">
+        <label for="name">
+          <h3>Please enter your human name:</h3>
+        </label>
+        <input id="name" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <h3>Please select your preferred human food:</h3>
+        <select class="form-control" id="food">
+          <option>Salad</option>
+          <option>Steak</option>
+          <option>Sushi</option>
+          <option>Bazashi</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <h3>Please select your favorite human music:</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="band" value="nickleback">
+            Nickleback
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="band" value="vivaldi">
+            Vivaldi
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="band" value="yodel">
+            Yodeling
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="born">
+          <h3> Please enter your human date of birth:</h3>
+        </label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+        <label for="color">
+          <h3>Please select your favorite human color:</h3>
+        </label>
+        <input id="color" class="form-control" type="color">
+      </div>
+    </div>
+    </form>
+  </div>
 </body>
 </html>
